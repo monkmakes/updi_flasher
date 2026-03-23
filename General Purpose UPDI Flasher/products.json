@@ -1,0 +1,37 @@
+[
+    {
+        "name": "CO2 Mini for micro bit",
+        "uc": "attiny1614", 
+        "hex_file": "hex_files/mb_co2_mini_firmware_sf_4.ino.hex",
+        "fuses": "0:0x00 1:0x00 2:0x01 4:0x00 5:0b11000101 6:0x04 7:0x00 8:0x00",
+        "flash_fuses": "2:0x01 6:0x04 8:0x00"
+    },
+    {
+        "name": "7-segment for micro bit (ATTiny826)",
+        "uc": "attiny826", 
+        "hex_file": "hex_files/seven_seg_v2a.ino.hex",
+        "fuses": "0:0x00 1:0x00 2:0x01 5:0b11110111 6:0x04 7:0x00 8:0x00",
+        "flash_fuses": "2:0x01 6:0x04 8:0x00"
+    },
+    {
+        "name": "7-segment for micro bit (ATTiny816)",
+        "uc": "attiny816", 
+        "hex_file": "hex_files/seven_seg_v2a.ino.hex",
+        "fuses": "0:0x00 1:0x00 2:0x01 5:0b11110111 6:0x04 7:0x00 8:0x00",
+        "flash_fuses": "2:0x01 6:0x04 8:0x00"
+    },
+    {
+        "name": "Plant Monitor",
+        "uc": "attiny1614", 
+        "hex_file": "hex_files/mb_water_firmware_1.ino.hex",
+        "fuses": "0:0x00 1:0x00 2:0x01 4:0x00 5:0b11000101 6:0x04 7:0x00 8:0x00",
+        "flash_fuses": "2:0x01 6:0x04 8:0x00"
+    },
+    {
+        "name": "Traffic Light Controller",
+        "uc": "attiny1614", 
+        "hex_file": "hex_files/traffic_lights_firmware_1c.ino.hex",
+        "fuses": "0:0b00000000 1:0x00 2:0x01 5:0b11000101 6:0x04 7:0x00 8:0x00",
+        "flash_fuses": "2:0x01 6:0x04 8:0x00"
+    }
+]
